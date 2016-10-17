@@ -1,0 +1,19 @@
+Name,Region,Country,Assay Date,API,Sulphur,TAN,Salt (ppm),Middle Distillate Yield (W_%),VGO Yield (W_%),Organic Acids (ppm),Unknown
+Agbami,Africa,Nigeria,2015-01-19T00:00:00Z,49.7,0.04,1.5,0,0,0,0,0
+Alaska_North_Slope,Alaska,USA,2015-01-19T00:00:00Z,31.4,0.96,0.2,0,0,0,0,0
+Alba,North Sea,Sample,2015-01-19T00:00:00Z,19.59,1.25,1.5,0,27.5,42.6,0,0
+Bakken,North Sea,Sample,2015-01-19T00:00:00Z,19.59,1.25,1.5,0,27.5,42.6,0,0
+Cabinda,Sample,Sample,2015-01-19T00:00:00Z,32.7,0.12,0.12,0,0,0,0,0
+Dalia,Test,Sample,2015-01-19T00:00:00Z,22.9,0.5,1.7,0,0,0,0,0
+Draugen,Europe,Sample,2015-01-19T00:00:00Z,39.6,0.15,0.09,0,0,0,0,0
+Duri,Sumatra,Sample,2015-01-19T00:00:00Z,20.3,0.21,1.46,0,21.1,0,0,0
+Ekofisk_Blend,Europe,Sample,2015-01-19T00:00:00Z,38.9,0.21,0.1,0,0,0,0,0
+Girassol,Sample,Sample,2015-01-19T00:00:00Z,30.1,0.34,0.37,0,0,0,0,0
+Hungo,Sample,Sample,2015-01-19T00:00:00Z,29,0.6,0.6,0,0,0,0,0
+Kissanje,Sample,Sample,2015-01-19T00:00:00Z,30.5,0.39,0.43,0,0,0,0,0
+Mars,Sample,Sample,2015-01-19T00:00:00Z,29,1.8,0.5,0,0,0,0,0
+Midway_Sunset,California,Sample,2015-01-19T00:00:00Z,12.6,1.6,2.2,0,0,0,0,0
+Minas,Sample,Sample,2015-01-19T00:00:00Z,34.5,0.08,0.05,0,0,0,0,0
+Plutonio,Sample,Sample,2015-01-19T00:00:00Z,33.2,0.36,0.15,0,0,0,0,0
+Saturno,Africa,Sample,2015-01-19T00:00:00Z,27,0.8,0.6,0,0,0,0,0
+Western_Canadian_Select,Alberta,Canada,2015-01-19T00:00:00Z,21.4,3.5,-0.95,76.5,0,0,0,0
