@@ -1,0 +1,80 @@
+{
+  "filename": "iot-templates.json",
+  "description": "Insurance IOT",
+  "allMappings": [
+    {
+      "templateID": "test_result_template",
+      "description": "",
+      "footNoteId": [""],
+      "templateStrings": ["Here"],
+      "templateParameters": [
+        {
+          "name": "entity",
+          "type": "single-value",
+          "required": true,
+          "default_value": ""
+        },
+        {
+          "name": "metric",
+          "type": "single-value",
+          "required": true,
+          "default_value": ""
+        },
+        {
+          "name": "time-phrase",
+          "type": "single-value",
+          "required": false,
+          "default_value": ""
+        },
+        {
+          "name": "from",
+          "type": "single-value",
+          "required": false,
+          "default_value": ""
+        },
+        {
+          "name": "till",
+          "type": "single-value",
+          "required": false,
+          "default_value": ""
+        }
+      ],
+      "headTemplates": [
+        "I know you asked about {{entity}}."
+      ],
+      "headTemplateParameters": [
+        {
+          "name": "entity",
+          "type": "single-value",
+          "required": true,
+          "default_value": ""
+        }
+      ],
+      "footTemplates": [
+        
+      ],
+      "footTemplateParameters": [
+        
+      ]
+    },
+    {
+      "templateID": "insurance-iot",
+      "description": "",
+      "footNoteId": [""],
+      "templateStrings": ["{{#data}}\n {{@index_1}}) {{claimant}} was driving at an average speed of {{avgspeed}} on a {{roadType}} road {{#if driverbehaviour}} with {{driverbehaviour}} and {{speedPattern}} {{else}} with {{speedPattern}} {{/if}}{{/data}}"],      "templateParameters": [
+        {
+          "name": "data",
+          "type": "multi-map",
+          "required": true,
+          "default_value": ""
+        },
+        {
+          "name": "claimant",
+          "type": "single-value",
+          "required": false,
+          "default_value": ""
+        }
+      ]      
+    }
+  ]
+}
