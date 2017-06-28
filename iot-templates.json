@@ -61,7 +61,7 @@
       "templateID": "insurance-iot",
       "description": "",
       "footNoteId": [""],
-      "templateStrings": ["{{#data}}\n {{@index_1}}) {{claimant}} was driving at an average speed of {{avgspeed}} on a {{roadType}} road {{#if driverbehaviour}} with {{driverbehaviour}} and {{speedPattern}} {{else}} with {{speedPattern}} {{/if}}{{/data}}"],      "templateParameters": [
+      "templateStrings": ["{{#data}}\n {{@index_1}}) {{claimant}} was driving at an average speed of {{avgspeed}} and a maximum speed of {{maxspeed}} on a {{roadType}} road {{#if driverbehaviour}} with {{driverbehaviour}} and {{speedPattern}} {{else}} with {{speedPattern}} {{/if}}{{/data}}"],      "templateParameters": [
         {
           "name": "data",
           "type": "multi-map",
