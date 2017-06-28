@@ -61,7 +61,26 @@
       "templateID": "insurance-iot",
       "description": "",
       "footNoteId": [""],
-      "templateStrings": ["{{#data}}\n {{@index_1}}) {{claimant}} was driving at an average speed of {{avgspeed}} and a maximum speed of {{maxspeed}} on a {{roadType}} road {{#if driverbehaviour}} with {{driverbehaviour}} and {{speedPattern}} {{else}} with {{speedPattern}} {{/if}}{{/data}}"],      "templateParameters": [
+      "templateStrings": ["{{#data}} {{claimant}} was driving at an average speed of {{avgspeed}} and a maximum speed of {{maxspeed}} on a {{roadType}} road {{#if driverbehaviour}} with {{driverbehaviour}} and {{speedPattern}} {{else}} with {{speedPattern}} {{/if}}{{/data}}"],      "templateParameters": [
+        {
+          "name": "data",
+          "type": "multi-map",
+          "required": true,
+          "default_value": ""
+        },
+        {
+          "name": "claimant",
+          "type": "single-value",
+          "required": false,
+          "default_value": ""
+        }
+      ]      
+    },
+    {
+      "templateID": "weather-iot",
+      "description": "",
+      "footNoteId": [""],
+      "templateStrings": ["{{#data}} The weather was {{obs}} with {{#if_gt rh '60'}} high humidity {{else}} low humidity {{/if_gt}} {{#if_gt temp '40'}} and very warm {{else}} and pleasant{{/if_gt}}{{/data}}"],      "templateParameters": [
         {
           "name": "data",
           "type": "multi-map",
