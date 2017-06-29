@@ -94,6 +94,25 @@
           "default_value": ""
         }
       ]      
+    },
+    {
+      "templateID": "engine-iot",
+      "description": "",
+      "footNoteId": [""],
+      "templateStrings": ["{{#data}} {{#if_gt CLTEMP '5'}} Coil temperature is high {{else}} Coil temperature is within range {{/if_gt}} {{#if_gt ESPEED '120'}} and there seems to be something wrong with the Engine. {{else}} and there seems to be no major problem with the Engine.{{/if_gt}}{{#if_gt FLPRE '120'}} Fuel pressure gauge needs to be checked {{else}} Fuel pressure also seems to be fine.{{/if_gt}}{{/data}}"],      "templateParameters": [
+        {
+          "name": "data",
+          "type": "multi-map",
+          "required": true,
+          "default_value": ""
+        },
+        {
+          "name": "claimant",
+          "type": "single-value",
+          "required": false,
+          "default_value": ""
+        }
+      ]      
     }
   ]
 }
