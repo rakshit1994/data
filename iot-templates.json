@@ -80,7 +80,7 @@
       "templateID": "weather-iot",
       "description": "",
       "footNoteId": [""],
-      "templateStrings": ["{{#data}} The weather was {{obs}} with {{#if_gt rh '60'}} high humidity {{else}} low humidity {{/if_gt}} {{#if_gt temp '40'}} and very warm {{else}} and pleasant{{/if_gt}}{{/data}}"],      "templateParameters": [
+      "templateStrings": ["{{#data}} The weather was {{obs}} with {{#if_gt rh '60'}} high humidity {{else}} low humidity {{/if_gt}} {{#if_gt temp '40'}} and very warm {{else}} and moderate{{/if_gt}}{{/data}}"],      "templateParameters": [
         {
           "name": "data",
           "type": "multi-map",
